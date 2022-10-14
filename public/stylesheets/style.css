@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,600;1,400&display=swap');
+
+body {
+  padding: 50px;
+  font-family: 'Chakra Petch', sans-serif;
+
+ 
+}
+.home{
+  margin-left: 1000px;
+  height: 280px;
+  width: 280px;
+  border-color: black;
+  padding-bottom: 14px;
+}
+.background-image {
+
+  background: linear-gradient(135deg, var(--primary), var(--secondary)),
+   url('./S.jpg') no-repeat center center / cover;
+  color: rgb(239, 238, 238);
+  font-family: Lato, sans-serif;
+}
+.image{
+  float:left ;
+  margin-right: 0px;
+  size: 4in;
+  width: 50%;
+  height: 50%;
+}
+.image1{
+  float:right;
+  size: 4in;
+  margin-left: 0px;
+  width: 50%;
+  height: 50%;
+}
+.h5{
+  margin-left: 600px;
+  padding-top: 8px;
+  color: #ff9d00;
+}
+.button{
+  background-color: #00B7FF;
+  margin-left: 35px;
+  margin-bottom: 7px;
+  color: #ff9d00;
+}
+a {
+  color: #00B7FF;
+}
+
+.bg-Dark{
+  background-color: #009688;
+}
+
+.text-center{
+
+  display: grid;
+  margin-top: 109px;
+  grid-auto-flow: column;
+  gap: 25px;
+  align-items: center;
+  justify-items: center;
+}
+
+.row-cols-2{
+padding: auto;
+margin-top: 75px;
+  align-items: center;
+
+gap: 4px;
+
+}
